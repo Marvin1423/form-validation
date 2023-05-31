@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com validação - javascript</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="texto-principal">
+            <h2>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h2>
+            <p>caso tenha ficado com qualquer dúvida <br> basta nos mandar uma mensagem e <br> entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <form class="form" action="#">
+            <div>
+                <input class="input-form" placeholder="Nome Completo *" type="text">
+                <p class="aviso aviso-oculto">Campo obrigatório</p>
+            </div>
+            <div>
+                <input class="input-form" placeholder="Email *" type="email">
+                <p class="aviso aviso-oculto">Campo obrigatório</p>
+            </div>
+            <div>
+                <input class="input-form" placeholder="Telefone *" type="number">
+                <p class="aviso aviso-oculto">Campo obrigatório</p>
+            </div>
+            <div>
+                <textarea class="mensagem input-form" placeholder="Mensagem *" name="mensagem" type="text"></textarea>
+                <p class="aviso aviso-oculto">Campo obrigatório</p>
+            </div>
+
+            <p>*campos obrigatórios</p>
+
+            <button id="btn-enviar-form" type="button">Enviar</button>
+        </form>
+    </div>
+
+    <script src="src/js/validation.js"></script>
+</body>
+</html>

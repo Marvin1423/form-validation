@@ -9,7 +9,7 @@ Validação não confirmada:
 ![image](./src/images/Design-final-invalidado.png)
 
 Mobile:
-![image](./src/images/)
+![image](./src/images/Projeto-final-design-mobile.gif)
 
 Neste desafio trabalhei habilidades como HTML5, CSS3 e Javascript.
 - Criação de formulários;
